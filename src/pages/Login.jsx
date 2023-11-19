@@ -15,6 +15,7 @@ function Login() {
     e.preventDefault();
 
     try {
+      console.log(url);
       const response = await axios.post(`${url}/auth/login`, {
         email,
         password,
