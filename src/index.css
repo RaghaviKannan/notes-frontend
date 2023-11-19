@@ -1,0 +1,14 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-image: url("https://img.freepik.com/free-vector/paper-note-memphis-background_53876-99283.jpg");
+  background-size: cover;
+  transition: background-image 0.5s, color 0.5s;
+}
+
+body.dark {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://img.freepik.com/free-vector/paper-note-memphis-background_53876-99283.jpg");
+  color: #fff;
+}
